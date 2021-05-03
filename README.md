@@ -1,5 +1,5 @@
 # Milvus Test
-* Simple test use of milvus
+* Simple test of milvus by python script
 
 ## Datasets
 * Source: https://ai.stanford.edu/~amaas/data/sentiment/ 
@@ -11,9 +11,8 @@
 
 ## Steps
 1. Install Milvus: https://github.com/milvus-io/milvus
-2. Run python script `test.py` with 1 mandotary input "search_item".
-3. Example in terminal:
+2. Run python script `mg_test.py` with 1 mandotary input "search_item".
+3. When milvus search is good with the python script, you will see:
    ```
-    python test.py "good movie"
+   Query result is correct.
    ```
-   It should return
