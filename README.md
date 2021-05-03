@@ -11,8 +11,15 @@
 
 ## Steps
 1. Install Milvus: https://github.com/milvus-io/milvus
-2. Run python script `mg_test.py` with 1 mandotary input "search_item".
-3. When milvus search is good with the python script, you will see:
+2. Prerequisites: pip install packages of tensorflow, tensorflow_hub (> 1.15), tensorflow_datasets
+   ```
+   $ pip install tensorflow
+   $ pip install "tensorflow>=1.15,<2.0"
+   $ pip install --upgrade tensorflow-hub
+   $ pip install tensorflow-datasets
+   ```
+4. Run python script `mg_test.py` with 1 mandotary input "search_item".
+5. When milvus search is good with the python script, you will see:
    ```
    Query result is correct.
    ```
