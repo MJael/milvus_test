@@ -18,7 +18,7 @@
    $ pip install --upgrade tensorflow-hub
    $ pip install tensorflow-datasets
    ```
-4. Run python script `mg_test.py` with 1 mandotary input "search_item".
+4. Run python script `mg_test.py`
 5. When milvus search is good with the python script, you will see:
    ```
    Query result is correct.
